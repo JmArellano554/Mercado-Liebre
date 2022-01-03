@@ -1,0 +1,132 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=hi, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MERCADO LIEBRE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+
+<header>
+    <div class="header">
+        <div class="contenedor-logo">
+            <img src="/images/logo-mercado-liebre.svg" alt="">
+        </div>
+        <div class="contenedor-buscador">
+            <input type="search" placeholder="Buscar productos, marcas" size="">
+            <form action="/" method="get">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>    
+        </div>
+        <div class="contenedor-compra-tc">
+        <p class="centrado"><i class="fas fa-hand-holding-usd"></i>  Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <div class="contenedor-site">
+        <ul class="site">
+            <li>Ofertas</li>
+            <li>Tiendas Oficiales</li>
+            <li>Vender</li>
+            <li>Ayuda</li>
+        </ul>
+        </div>
+        <div class="contenedor-login">
+            <div class="">
+        <ul class="login-nav-bar">
+            <li> <a href="/register">Crea tu cuenta</a> <i class="far fa-id-card"></i></li>
+            <li> <a href="/login">Ingresá</a> <i class="fas fa-sign-in-alt"></i></li>
+            <li>Mis compras  <i class="fas fa-shopping-basket"></i></li>
+        </ul>
+        </div>
+
+    </div>
+        <div class="burger-menu">
+            <i  class="fas fa-bars"></i>
+            </div> 
+
+    </header>
+
+    <main>
+        <div>
+        <form action="/" method="get" class="control-formulario"  id="form-button"> 
+           
+    
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" name="name" id="nombre" class="casilleros-formulario" minlength="3" required>
+                <p></p>
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario" class="casilleros-formulario" minlength="3" required>
+            <p></p>
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="fecha" value="2021-12-12" id="fecha" class="casilleros-formulario" required>
+            <p></p>
+            <label for="comicilio">Domicilio</label>
+            <input type="text" name="domicilio" id="domicilio" class="casilleros-formulario" minlength="3" required>
+            <p></p>
+            <label>Perfil del usuario</label>
+            <select name="Perfil" class="casilleros-formulario" required>
+               <option>comprar</option>
+               <option>vender</option>
+               </select>
+            <p></p>
+               <label for="categorias" class="casilleros-formulario" required>Categorías de interés</label><p></p>
+                <label for="categorias" >electro:</label>
+                <input type="checkbox" name="categorias" value="electro" id="categorias">
+                <label for="categorias" >Moda:</label>
+                <input type="checkbox" name="categorias" value="Moda" id="categorias">
+                <label for="categorias" >Hogar:</label>
+                <input type="checkbox" name="categorias"value="Hogar" id="categorias">
+                <label for="categorias" >Juguetería:</label>
+                <input type="checkbox" name="categorias" value="Juguetería" id="categorias">
+                <label for="categorias" >Vida sana:</label>
+                <input type="checkbox" name="categorias" value="Vida sana" id="categorias">    
+                <p></p>
+                <label for=>Contraseña</label>
+          <input type="password" name="password" class="casilleros-formulario" minlength="8" required>
+            <p></p>
+            <label for=>Confirmar Contraseña</label>
+          <input type="password" name="password" class="casilleros-formulario" minlength="8" required>
+          <p></p>
+          <a href="/"><button type="submit" class="boton-formulario" required>ENVIAR</button></a>
+          <button type="reset" class="boton-formulario">BORRAR</button>
+          <p></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+        <ul>
+            <div class="contenedor-footer">
+                <div class="contenedores-informacion-final">
+                    <div> <i class="fas fa-credit-card" id="iconos-grandes"></i> </div>
+                    <li class="informacion-final">Pagá con tarjeta o en efectivo</li>
+                    <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+                </div>
+                <div class="contenedores-informacion-final">
+                    <div><i class="fas fa-gift" id="iconos-grandes"></i>  </div>  
+                    <li class="informacion-final">Envío gratis desde $ 2.500</li>
+                    <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    </p>productos. Es un beneficio de Mercado Puntos.</p>
+                </div>
+                <div class="contenedores-informacion-final">
+                    <div><i class="fas fa-user-shield" id="iconos-grandes"></i> </div>
+                    <li class="informacion-final">Seguridad, de principio a fin</li>
+                    <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+                </div>
+            </div>
+
+            <br>
+            
+        <p class="margen">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+
+    </footer>
+
+</body>
+</html>
