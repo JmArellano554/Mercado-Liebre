@@ -1,3 +1,3 @@
 web: app.js
 
-node: ./src/app.js
+node: ./app.js
